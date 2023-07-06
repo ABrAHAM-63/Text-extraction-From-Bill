@@ -2,7 +2,7 @@ import pytesseract as pyt
 import cv2
 import re
 
-img=cv2.imread("text.jpeg")
+img=cv2.imread("text.png")
 
 
 text=pyt.image_to_string(img)
